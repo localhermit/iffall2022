@@ -1,0 +1,47 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    display: block;
+    max-width: 750px;
+    margin: auto;
+}
+
+h1{
+    margin-top: 4rem;
+}
+
+h2{
+    margin-top: 2.5rem;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+img{
+    margin-bottom: 2rem;
+}
+
+table {
+    display: inline-block;
+    margin-bottom: 40px;
+    line-height: 1.7em;
+}
+
+td {
+    padding: 0 20px;
+}
+
+.first{
+    margin-top: 5rem;
+}
+
+.last{
+    margin-bottom: 5rem;
+}
+.sep{
+    margin-top: 8rem;
+}
