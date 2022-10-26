@@ -1,0 +1,553 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 103px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.landing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.top{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.top img{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topimg{
+    display: none;
+}
+
+.topleft{
+    width: 45%;
+    margin-right: auto;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.rating img{
+    height: 47.01px;
+    margin-right: 0.75rem;
+}
+
+.rating p{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.extra{
+    display: none;
+}
+
+.work p{
+    margin-bottom: 2rem;
+}
+
+.float{
+    display: flex;
+    justify-content: center;
+}
+
+.float2{
+    margin-left: auto;
+}
+.float2 img{
+    margin-left: 3rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left{
+    margin-right: auto;
+    width: 35%;
+    overflow: hidden;
+    align-items: center;
+    justify-items: center;
+}
+
+.allerg{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.allerg img{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 110px;
+}
+
+table {
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 40px;
+    line-height: 2em;
+}
+
+td {
+    padding: 0 20px;
+}
+
+ul{
+    line-height: 2rem;
+    margin-bottom: 10rem;
+}
+
+.big{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+}
+
+.tiny1{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 228px;
+}
+
+.tiny1 img{
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+}
+.tiny2{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    height: 228px;
+}
+
+
+.wi{
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 168px;
+}
+
+.hi{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 168px;
+}
+
+
+.right{
+    margin-left: auto;
+    width: 45%;
+    overflow: hidden;
+}
+
+.right p{
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.time{
+    display: block;
+}
+
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 6rem;
+    color: grey;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer.mobile{
+    display: none;
+}
+
+.images{
+    display: none;
+}
+
+@media (max-width: 415px) {
+    .allerg img{
+        margin: 2rem 3rem;
+    }
+}
+@media (max-width: 480px) {
+    h1{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    h2{
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    p{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    table{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+    ul{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+    }
+
+    .rating{
+        height: 20px;
+        margin-bottom: 0.75rem;
+    }
+
+    .rating img{
+        height: 18.01px;
+        margin-right: 0.25rem;
+    }
+
+    .work{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .float{
+       margin-bottom: 1rem;
+    }
+
+    .float2 img{
+        height: 15.44px;
+        margin-left: 0.5rem;
+    }
+    .allerg{
+        margin: 0;
+        margin-bottom: 6rem;
+    }
+
+    .allerg img{
+        width: 69.61px;
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;
+    }
+
+    .images{
+        width: 85%;
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+
+    .images img{
+        height: 196px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+}
+
+@media (max-width: 760px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .landing{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-items: center;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .topleft{
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top{
+        display: none;
+    }
+
+    .topimg{
+        display: block;
+        width: 125%;
+        margin-bottom: 3rem;
+    }
+
+    p.extra{
+        display: block;
+        margin-bottom: 0;
+    }
+    
+    .content{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        overflow: hidden;
+    }
+
+    .left{
+        margin: 0;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .label{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 6rem;
+    }
+
+    ingre{
+        align-items: center;
+        justify-items: center;
+    }
+
+    table{
+        margin-top: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 6rem;
+    }
+
+    ul{
+        margin-top: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    li{
+        list-style: inside;
+    }
+
+    .imgs{
+        display: none;
+    }
+
+    .right{
+        margin: 0;
+        width: 85%;
+    }
+
+    .time{
+        display: none;
+    }
+
+    .right h2{
+        margin-bottom: 3rem;
+    }
+
+    footer{
+        display: none;
+    }
+    footer.mobile{
+        display: block;
+        width: 85%;
+        margin-bottom: 2rem;
+    }
+
+    .images{
+        width: 85%;
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+
+    .images img{
+        height: 300px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+
+}
+
+@media (max-width: 1080px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+    }
+    
+    .left{
+        margin-right: 0;
+        width: 50%;
+
+    }
+    .right{
+        margin-left: 0;
+    }
+
+    .landing{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-items: center;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+
+    .topleft{
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top{
+        display: none;
+    }
+
+    .topimg{
+        display: block;
+        width: 125%;
+        margin-bottom: 3rem;
+    }
+
+    .allerg img{
+        margin: 1rem 2rem;
+    }
+
+    .content{
+       width: 85%;
+       margin-top: 6rem;
+    }
+
+}
+
+@media (max-width: 1848px) {
+    .allerg img{
+        margin: 1rem 2rem;
+    }
+}
+
+@media (max-width: 1259px) {
+    .allerg img{
+        margin: 0.5rem 0.5rem;
+    }
+}
+
