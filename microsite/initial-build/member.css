@@ -1,0 +1,61 @@
+#member h4{
+    font-family: 'cambersemi_bold';
+    font-weight: bold;
+    border-bottom: 1.5px solid black;
+}
+
+.content{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.slide {
+    scroll-snap-align: start;
+    min-width: 100vw;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainview{
+    width: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainview img{
+    width: 428px;
+    margin-right: 70px;
+    box-shadow: -6px 7px 24px -1px rgba(0, 0, 0, 0.25);
+    transition: 5s ease-in;
+}
+
+.mainview h1, h2{
+    margin-bottom: 8px;
+}
+
+table {
+    display: inline-block;
+    line-height: 2em;
+    text-align: left;
+}
+
+th {
+    padding-right: 20px;
+    font-family: 'cambermedium';
+}
+
+.links{
+    margin-top: 10px;
+}
+
+.links img{
+    box-shadow: none;
+    width: 30px;
+    margin-right: 20px;
+}
